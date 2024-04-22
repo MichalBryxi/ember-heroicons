@@ -31,6 +31,14 @@ The `HeroIcon` component supports the following arguments:
 -   `@icon` - the name of the icon to render
 -   `@type` - one of `outline`, `solid`, `mini` or `micro`
 
+### Explicit imports
+
+When using with [ember-template-imports](https://github.com/ember-template-imports/ember-template-imports) you will need to import the component using following path:
+
+```js
+import HeroIcon from 'ember-heroicons/components/hero-icon';
+```
+
 ### Custom configuration
 
 By default, all icons for all types will be available within your application. Additionally, the default icon `type`, if not specified, will be `outline`.
